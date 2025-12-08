@@ -13,10 +13,6 @@
 - [System Architecture](#system-architecture)
 - [Performance Metrics](#performance-metrics)
 - [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
-- [Results & Validation](#results--validation)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
