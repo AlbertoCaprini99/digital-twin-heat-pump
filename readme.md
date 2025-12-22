@@ -22,10 +22,25 @@
 This project implements a **Digital Twin** for air-source heat pumps designed to enable predictive maintenance and fault detection. The system combines:
 
 - **Physics-based modeling** using MATLAB Simscape for thermodynamic simulation
-- **Machine learning** with neural networks for anomaly detection
+- **Machine learning** with neural networks trained on synthetic data for anomaly detection
 - **Real-time diagnostics** through an intuitive GUI interface
 
 The digital twin can predict system behavior, detect anomalies, and diagnose specific faults such as refrigerant leakage and condenser fouling before they lead to system failures.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/1.png" alt="Refrigerant Cycle" width="600">
+      <br>
+      <b>Refrigerant Cycle</b>
+    </td>
+    <td align="center">
+      <img src="images/2.png" alt="Digital Twin Architecture" width="400">
+      <br>
+      <b>Digital Twin Architecture</b>
+    </td>
+  </tr>
+</table>
 
 ### 🎓 Academic Context
 
