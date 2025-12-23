@@ -26,6 +26,7 @@ This project implements a **Digital Twin** for air-source heat pumps designed to
 - **Real-time diagnostics** through an intuitive GUI interface
 
 The digital twin can predict system behavior, detect anomalies, and diagnose specific faults such as refrigerant leakage and condenser fouling before they lead to system failures.
+Leveraging the physics-based model we generated a synthetic dataset of over 1,000 stationary operating conditions and trained a neural network to improve computational performance and integration with PLCs and GUIs.
 
 <table>
   <tr>
