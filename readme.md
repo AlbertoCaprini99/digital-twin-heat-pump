@@ -18,15 +18,10 @@
 ---
 
 ## 🎯 Overview
+Development and innovation in the field of **heat pumps** are primarily focused on improving early fault detection.
+One of the technologies currently used to address these challenges is **Digital Twins**.
 
-This project implements a **Digital Twin** for air-source heat pumps designed to enable predictive maintenance and fault detection. The system combines:
-
-- **Physics-based modeling** using MATLAB Simscape for thermodynamic simulation
-- **Machine learning** with neural networks trained on synthetic data for anomaly detection
-- **Real-time diagnostics** through an intuitive GUI interface
-
-The digital twin can predict system behavior, detect anomalies, and diagnose specific faults such as refrigerant leakage and condenser fouling before they lead to system failures.
-Leveraging the physics-based model we generated a synthetic dataset of over 1,000 stationary operating conditions and trained a neural network to improve computational performance and integration with PLCs and GUIs.
+The digital twin **virtually replicates** the behavior of a heat pump; given the operating conditions (inputs), the model estimates pressures, temperatures, and power outputs.
 
 <table>
   <tr>
@@ -42,6 +37,17 @@ Leveraging the physics-based model we generated a synthetic dataset of over 1,00
     </td>
   </tr>
 </table>
+
+<img width="1968" height="194" alt="immagine" src="https://github.com/user-attachments/assets/350da62e-adfb-481a-99e5-07d7604421ef" />
+
+This project implements a **Digital Twin** for air-source heat pumps designed to enable predictive maintenance and fault detection. The system combines:
+
+- **Physics-based modeling** using MATLAB Simscape/Simulink for stationary, finite-element and component-level thermodynamic simulation
+- **Machine learning** with neural networks trained on synthetic data for anomaly detection
+- **Real-time diagnostics** through an intuitive GUI interface
+
+The digital twin can predict system behavior, detect anomalies, and diagnose specific faults such as refrigerant leakage and condenser fouling before they lead to system failures.
+Leveraging the physics-based model we generated a synthetic dataset of over 1,000 stationary operating conditions and trained a neural network to improve computational performance and integration with PLCs and GUIs.
 
 ### 🎓 Academic Context
 
